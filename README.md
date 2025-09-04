@@ -78,4 +78,11 @@ The instructions for setup are based on those found [here](https://idaes-pse.rea
 
 3. Open PrOMMiS_LCA_Model.ipynb and run the cells in order, following the provided instructions as you go
 
-## 
+## Overview
+
+This repository is designed to produce LCA results using the Process Optimization and Modeling for Minerals Sustainability (PrOMMiS) framework. Specifically this repository models the extraction of rare earth elements (REEs) from coal refuse. More details on the nature of PrOMMiS can be found at the following link: https://github.com/prommis/prommis
+
+The src folder contains scripts that are utilized by PrOMMiS_LCA_Model.ipynb to generate LCA results. Below is a summary of the scripts used in order.
+
+1. prommis_LCA_data.py: this script runs the PrOMMiS flowsheet and extracts all relevant LCA metrics. It creates a csv file called lca_df.csv
+2. Something
